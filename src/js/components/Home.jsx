@@ -9,11 +9,21 @@ const Home = () => {
 		<div className="text-center">
 			<Navbar/>
 			<Jumbotron/>
-			<div className="d-flex align-items-center justify-content-center py-5">
-			<Card/>
-			<Card/>
-			<Card/>
-			<Card/>
+			<div className="d-flex align-items-center justify-content-center py-5 min-widht">
+				<div className="row">
+					<div className="col-3 col-md-6 col-sm-12">
+						<Card/>
+					</div>	
+					<div className="col-3 col-md-6 col-sm-12">
+						<Card/>
+					</div>	
+					<div className="col-3 col-md-6 col-sm-12">
+						<Card/>
+					</div>	
+					<div className="col-3 col-md-6 col-sm-12">
+						<Card/>
+					</div>	
+				</div>
 			</div>
 			<Footer/>
 		</div>
